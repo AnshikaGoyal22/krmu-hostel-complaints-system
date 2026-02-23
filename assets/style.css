@@ -1,0 +1,528 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e8edf5, #dfe6f1);
+}
+
+.navbar {
+    background: #1e3c72;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-logo {
+    width: 40px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.nav-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-links a:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+.logout {
+    background: #e74c3c;
+}
+
+
+/* LOGIN PAGE DESIGN */
+
+.login-body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-box {
+    position: relative;
+    background: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    text-align: center;
+    z-index: 1;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+
+.subtitle {
+    margin-bottom: 25px;
+    font-size: 14px;
+    color: gray;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background: #1e3c72;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.login-box button:hover {
+    background: #163060;
+}
+
+.register-text {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.register-text a {
+    color: #1e3c72;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
+
+
+/* Dark overlay */
+.login-page::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+/* LOGIN PAGE BACKGROUND */
+.login-page {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('images/hostel.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Dark overlay */
+.login-page::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+/* Login box */
+.login-container {
+    position: relative;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+}
+.login-container {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.college-logo {
+    width: 85px;
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    transition: 0.3s ease;
+}
+
+.college-logo:hover {
+    transform: scale(1.05);
+}
+
+.welcome-text {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 30px;
+}
+.card {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 22px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    transition: 0.3s ease;
+    text-align: left;
+}
+
+card button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #1e3c72, #2a5298);
+    color: white;
+    transition: 0.3s ease;
+}
+
+.card button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.dashboard-container {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 50px;
+    background: #f8f9fb;
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+}
+.dashboard-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+
+.card-icon {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.welcome-text {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #666;
+}
+
+.card h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.btn {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(45deg, #1e3c72, #2a5298);
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+.navbar {
+    position: relative;
+    z-index: 9999;
+}
+.nav-links a {
+    position: relative;
+    z-index: 10000;
+}
+img {
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
+}
+
+.pending { background: orange; }
+.progress { background: blue; }
+.resolved { background: green; }
+.rejected { background: red; }
+
+.admin-login {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ===== LOGIN TOGGLE ===== */
+
+.login-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: #eaeaea;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.toggle-link {
+    flex: 1;
+    padding: 8px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+    transition: 0.3s;
+}
+
+.toggle-link:hover {
+    background: #d6d6d6;
+}
+
+.toggle-link.active {
+    background: #1f3c88;
+    color: white;
+}
+
+/* ===== ADMIN DASHBOARD ===== */
+
+.admin-dashboard {
+    background: #f4f6f8;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.admin-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.admin-card {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.admin-card h3 {
+    margin-bottom: 15px;
+}
+
+.admin-card p {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.admin-card.pending {
+    border-top: 5px solid orange;
+}
+
+.admin-card.resolved {
+    border-top: 5px solid green;
+}
+
+.admin-card {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.admin-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+table {
+    width: 95%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #1f3c88;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* STATUS BADGES */
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+}
+
+.badge.pending { background: orange; }
+.badge.progress { background: #007bff; }
+.badge.resolved { background: green; }
+.badge.rejected { background: red; }
+
+/* BUTTONS */
+.btn-small {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin: 2px;
+}
+
+.progress-btn { background: #007bff; }
+.resolve-btn { background: green; }
+.reject-btn { background: red; }
+
+/* PROFILE PAGE */
+
+.profile-card {
+    background: white;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.profile-card p {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+/* STUDENT STATS CARDS */
+
+.stats-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    gap: 15px;
+}
+
+.stat-card {
+    flex: 1;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.stat-card h3 {
+    margin-bottom: 10px;
+}
+
+.stat-card p {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Color borders */
+
+.stat-card.total {
+    border-top: 5px solid #1f3c88;
+}
+
+.stat-card.pending {
+    border-top: 5px solid orange;
+}
+
+.stat-card.progress {
+    border-top: 5px solid #007bff;
+}
+
+.stat-card.resolved {
+    border-top: 5px solid green;
+}
