@@ -16,12 +16,14 @@ $result = mysqli_query($conn, "SELECT * FROM complaints WHERE student_id='$stude
 <body>
 
 <div class="navbar">
-    Student Panel
-    <span style="float:right;">
+    <div class="logo">KRMU Hostel Portal</div>
+
+    <div class="nav-links">
         <a href="dashboard.php">Dashboard</a>
-        <a href="register_complaint.php">Register Complaint</a>
-        <a href="logout.php">Logout</a>
-    </span>
+        <a href="complaint.php">Register</a>
+        <a href="my_complaints.php">My Complaints</a>
+        <a href="logout.php" class="logout">Logout</a>
+    </div>
 </div>
 
 <div class="container">

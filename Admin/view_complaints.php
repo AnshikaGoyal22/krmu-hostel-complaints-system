@@ -21,11 +21,14 @@ if(isset($_GET['status'])){
 <body>
 
 <div class="navbar">
-    Admin Panel
-    <span style="float:right;">
+    <div class="logo-section">
+        Admin Panel
+    </div>
+
+    <div class="nav-links">
         <a href="dashboard.php">Dashboard</a>
-        <a href="logout.php">Logout</a>
-    </span>
+        <a href="logout.php" class="logout">Logout</a>
+    </div>
 </div>
 
 <div class="container">

@@ -100,7 +100,7 @@ $resolved = mysqli_num_rows(
         <a href="complaint.php">Register</a>
         <a href="my_complaints.php">My Complaints</a>
         <a href="profile.php">Profile</a>
-        <a href="../logout.php" class="logout">Logout</a>
+        <a href="logout.php" class="logout">Logout</a>
     </div>
 </div>
 

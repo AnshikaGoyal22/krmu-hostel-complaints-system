@@ -28,7 +28,7 @@ $resolved = mysqli_num_rows(mysqli_query($conn, "SELECT * FROM complaints WHERE 
     <div class="nav-links">
         <a href="#">Dashboard</a>
         <a href="view_complaints.php">View Complaints</a>
-        <a href="../logout.php" class="logout">Logout</a>
+        <a href="logout.php" class="logout">Logout</a>
     </div>
 </div>
 

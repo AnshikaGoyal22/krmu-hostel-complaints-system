@@ -108,7 +108,7 @@ if(isset($_POST['submit'])){
         </select>
 
         <label>Description</label>
-        <textarea name="description" rows="4" required></textarea>
+<textarea name="description" rows="4" required placeholder="Describe your complaint"></textarea>
 
         <label>Upload Image (Optional)</label>
 <input type="file" name="image" accept="image/*">

@@ -48,6 +48,9 @@ if(isset($_POST['login'])){
     <a href="login.php" class="toggle-link active">Student Login</a>
     <a href="../admin/login.php" class="toggle-link">Admin Login</a>
 </div>
+<h3 style="margin-bottom:5px; color:#1e3c72;">
+Hostel Complaint Management System
+</h3>
     <h2>Student Login</h2>
 
     <form method="post">
