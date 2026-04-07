@@ -40,14 +40,6 @@ This system digitizes the process, allowing students to submit and track complai
 ---
 
 
-## ⚙️ Setup Instructions
 
-1. Install XAMPP.
-2. Place the project folder inside:
-   C:\xampp\htdocs\
-3. Start Apache and MySQL.
-4. Import the database file into phpMyAdmin.
-5. Run the project in browser:
-   http://localhost/krmu_hostel_complaint
 
 
